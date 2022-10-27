@@ -1,0 +1,103 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 56px;
+color: #000000;
+}
+
+.titulo-site{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+            /* PAGINA 6 */
+/* Cabeçalho de botões com links */ 
+
+header{
+    background-color: #001B48; 
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    color: #ffffff;
+}
+
+li:hover{    
+    color: rgb(2, 2, 2);     
+    transition: 0.20s all; 
+}
+
+hgroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botão-cabeçalho{
+    font-weight: 500;
+    padding-right: 2px;
+}
+
+/* div das descrições das empresas */
+.descrição-pag8{
+    width: 60%;
+    height: 300px;
+    border: 1px solid #000000;
+    /* margin: 5px; */
+    padding: 0 5px;
+        
+}
+
+/* mequi */
+.mequi-imagem{
+    width: 9%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mequi-titulo, .mequi-descrição{
+    text-align:right;
+}
+
+/* microsoft */
+.microsoft-imagem{
+    width: 7%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.descrição-microsoftpag8{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 5px auto;
+    text-align: center;
+    /* padding: 0 5px; */
+}
+
+.microsoft-titulo, .microsoft-descrição{
+    text-align: right;
+}
+
+/* vale */
+.vale-imagem{
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.vale-titulo, .vale-descrição{
+    text-align: right;
+}
